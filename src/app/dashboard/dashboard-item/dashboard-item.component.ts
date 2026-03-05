@@ -11,6 +11,6 @@ export class DashboardItemComponent {
   // @Input({ required: true }) image!: { path: string; alt: string };
   // @Input({ required: true }) title!: string;
 
-  image = input.required<{ path: string; alt: string }>();
+  image = input.required<{ src: string; alt: string }>();
   title = input.required<string>();
 }
